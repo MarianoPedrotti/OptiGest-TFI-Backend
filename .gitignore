@@ -1,0 +1,49 @@
+﻿# Visual Studio
+.vs/
+
+# Build
+bin/
+obj/
+
+# User files
+*.user
+*.suo
+
+# Rider
+.idea/
+
+# Logs
+*.log
+
+# EF Core local config
+appsettings.Development.json
+appsettings.Local.json
+appsettings.*.local.json
+
+# Local credentials and certificates
+.env
+.env.local
+*.pfx
+*.pem
+*.key
+
+# Local publication artifacts (may contain deployment secrets)
+/publish/
+/publish-somee/
+/deploy-somee/
+
+# Generated frontend files copied from the Vite build
+/wwwroot/index.html
+/wwwroot/favicon.svg
+/wwwroot/icons.svg
+/wwwroot/logoBebiker.jpeg
+/wwwroot/assets/index-*.js
+/wwwroot/assets/index-*.css
+/wwwroot/assets/bootstrap-icons-*.woff
+/wwwroot/assets/bootstrap-icons-*.woff2
+/wwwroot/assets/be bikers-*.png
+/wwwroot/assets/logo1-*.png
+/wwwroot/assets/logo2-*.png
+# Infraestructura local de pruebas: nunca versionar bases ni resultados.
+.testing-data/
+**/TestResults/
